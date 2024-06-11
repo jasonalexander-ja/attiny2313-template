@@ -11,6 +11,7 @@ Rust project for the ATtiny2313.
 3. Use an Arduino as an ISP to upload your firmware: 
    * Connect your AVR based Arduino to your PC, opening the Arduino IDE, select the correct port and Arduino board then open the example sketch File -> Examples -> 11.ArduinoISP -> ArduinoISP and upload it. 
    <img src="docs/ide.png">
+   
    * Take note of what port your arduino is on 
 
 4. Connect your arduino to your ATtiny2313:
