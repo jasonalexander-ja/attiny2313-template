@@ -27,12 +27,3 @@ Rust project for the ATtiny2313.
 avrdude -c arduino_as_isp -p t2313 -P [serial port of arduino] -U flash:w:"target/avr-attiny2313/release/[executable name].elf":a
 ```
 
-
-
-
-
-[`avr-hal` README]: https://github.com/Rahix/avr-hal#readme
-[`ravedude`]: https://crates.io/crates/ravedude
-
-at your option.
-
